@@ -7,7 +7,7 @@ import retrofit2.http.*
 
 interface ChatGptApi {
     @Headers(
-        "Authorization: Bearer !!!!!!1", // 여기에 OpenAI API 키를 입력하세요
+        "Authorization: Bearer !!!!!!!", // 여기에 OpenAI API 키를 입력하세요
         "Content-Type: application/json"
     )
     @POST("chat/completions")

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <!-- remove shadow below action bar -->
+        <!-- <item name="android:elevation">0dp</item> -->
+        <!-- Support library compatibility -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="AppTheme.Trans">
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="@style/AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

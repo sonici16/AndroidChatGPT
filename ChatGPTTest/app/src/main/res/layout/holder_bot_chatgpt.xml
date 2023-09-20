@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:padding="8dp">
+
+    <!-- 상대방(어시스턴트)의 프로필 이미지 (옵션) -->
+    <ImageView
+        android:id="@+id/assistantProfileImage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="start"
+        android:contentDescription="Assistant Profile Image" />
+
+    <!-- 상대방(어시스턴트)의 메시지 내용 -->
+    <TextView
+        android:id="@+id/assistantMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#696969"
+        android:padding="8dp"
+        android:text="상대방 메시지 내용"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
